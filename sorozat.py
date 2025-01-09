@@ -9,8 +9,9 @@ lista.append(rszam)
 i+=1
 def fel2():
     i=0
-    while i if i
-        print(f"{lista[i]}", end="!")
+    while i<len(lista):
+        if i<len(lista)-1:
+            print(f"{lista[i]}", end="!")
     else:
         print(f"{lista[i]}",end=" ")
     i+=1
